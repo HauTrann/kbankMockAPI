@@ -1,0 +1,15 @@
+{
+  "name": "api-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mockapi": "1.0.0",
+    "morgan": "^1.6.1",
+    "nodemon": "^2.0.12"
+  }
+}
