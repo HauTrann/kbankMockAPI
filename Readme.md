@@ -1,5 +1,5 @@
 HELLO!!!!!!!!!!!!!!!!
 
-Để run
-	npm install
+Để run  
+	npm install  
 	npm start

@@ -1,4 +1,5 @@
 exports.get = function(req, res) {
+  console.log(JSON.stringify(req.body));
     res.json({
         "Pagination": {
           "perPage": 4,
@@ -32,7 +33,7 @@ exports.get = function(req, res) {
             "Channel": "22",
             "CreditAmt": "2000000.00",
             "EmpCode": "my_thi_hien.n",
-            "BRID": "0002",
+            "BRID": "90001",
             "CCYCD": "VND",
             "TranRef": "1836E2100C189247F2D",
             "Balance": "2000000.00",
@@ -89,7 +90,7 @@ exports.get = function(req, res) {
             "Channel": null,
             "CreditAmt": null,
             "EmpCode": "thao_thi_thu.n",
-            "BRID": "0002",
+            "BRID": "90001",
             "CCYCD": null,
             "TranRef": null,
             "Balance": null,

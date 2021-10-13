@@ -1,4 +1,5 @@
 exports.get = function(req, res) {
+  console.log(JSON.stringify(req.body));
     res.json({
         "KBankHeader": {
           "funcNm": "getAccountInfo",
@@ -24,10 +25,10 @@ exports.get = function(req, res) {
         "AvailableBal": "14954269.00",
         "BlockBalance": "0.00",
         "InterestRate": "2.5000",
-        "CCYCD": "VND",
+        "CCYCD": "THB",
         "LastTransDate": "2021-12-31",
         "OpenDate": "2021-09-30",
-        "BRID": "0002",
+        "BRID": "90001",
         "Status": "Active",
         "OverLimit": "0.00",
         "Channel": null,
