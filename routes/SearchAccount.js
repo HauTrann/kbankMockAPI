@@ -8,7 +8,7 @@ exports.get = function(req, res) {
             "CustType": "C",
             "Balance": 43298.22,
             "AvailableBal": 43298.22,
-            "CCYCD": "KHR",
+            "CCYCD": "USD",
             "LastTransDate": "20/07/2021",
             "BlockBalance": 0.0,
             "OpenDate": "20/07/2021",

@@ -16,6 +16,7 @@ app.use(mockapi.middleware.forceJsonResponse());
 
 var link = '/v1/vietnam/corebank/';
 var link_KH = '/v1/banks/';
+var link_VN_PHP = '/v1/vietnam/iph/';
 // api routes
 app.post(link + 'getlistofaccountcasa', routes.getlistofaccountcasa.get);
 app.post(link + 'getaccountinfo', routes.getaccountinfo.get);
@@ -23,7 +24,10 @@ app.post(link + 'getcustomerinfo', routes.getcustomerinfo.get);
 app.post(link + 'getaccountactivitypaymentdeposit', routes.getaccountactivitypaymentdeposit.get);
 app.post(link + 'getexchangerate', routes.getexchangerate.get);
 
-
+app.post(link_VN_PHP + 'uat/bankList/citad/bankList', routes.bankList.get);
+app.post(link_VN_PHP + 'uat/bankList/citad/branchList', routes.branchList.get);
+app.post(link_VN_PHP + 'uat/bankList/napas/bankCard', routes.bankCard.get);
+app.post(link_VN_PHP + 'uat/bankList/napas/bankAccount', routes.bankAccount.get);
 
 app.post(link_KH + 'customer/SearchCustomerByCode', routes.SearchCustomerByCode.get);
 app.post(link_KH + 'deposit/GetAccountByCustomer', routes.GetAccountByCustomer.get);

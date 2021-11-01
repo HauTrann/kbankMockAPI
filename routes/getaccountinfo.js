@@ -25,7 +25,7 @@ exports.get = function(req, res) {
         "AvailableBal": "14954269.00",
         "BlockBalance": "0.00",
         "InterestRate": "2.5000",
-        "CCYCD": "THB",
+        "CCYCD": "VND",
         "LastTransDate": "2021-12-31",
         "OpenDate": "2021-09-30",
         "BRID": "90001",
