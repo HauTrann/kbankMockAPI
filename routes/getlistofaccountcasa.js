@@ -3,7 +3,7 @@ exports.get = function(req, res) {
   let data = {};
   if(req.body.CIFNo === '21'){
     data ={
-      "header": {
+      "KBankHeader": {
           "funcNm": "getlistofaccountcasa",
           "rqAppId": "08006",
           "rqDt": "2009-05-15T15:48:04.000359+05:30",
@@ -608,7 +608,7 @@ exports.get = function(req, res) {
   }
   }else{
     data = {
-      "header": {
+      "KBankHeader": {
         "funcNm": "getListOfAccountCASA",
         "rqAppId": "8005",
         "rqDt": "2009-05-15T15:48:04.000359+05:30",

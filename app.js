@@ -18,16 +18,17 @@ var link = '/v1/vietnam/corebank/';
 var link_KH = '/v1/banks/';
 var link_VN_PHP = '/v1/vietnam/iph/';
 // api routes
-app.post(link + 'getlistofaccountcasa', routes.getlistofaccountcasa.get);
-app.post(link + 'getaccountinfo', routes.getaccountinfo.get);
-app.post(link + 'getcustomerinfo', routes.getcustomerinfo.get);
-app.post(link + 'getaccountactivitypaymentdeposit', routes.getaccountactivitypaymentdeposit.get);
-app.post(link + 'getexchangerate', routes.getexchangerate.get);
+app.post(link + 'getListOfAccount', routes.getlistofaccountcasa.get);
+app.post(link + 'getAccountInfo', routes.getaccountinfo.get);
+app.post(link + 'getCustomerInfo', routes.getcustomerinfo.get);
+app.post(link + 'getAccountActivityPaymentDeposit', routes.getaccountactivitypaymentdeposit.get);
+app.post(link + 'getExchangeRate', routes.getexchangerate.get);
 
-app.post(link_VN_PHP + 'uat/bankList/citad/bankList', routes.bankList.get);
-app.post(link_VN_PHP + 'uat/bankList/citad/branchList', routes.branchList.get);
-app.post(link_VN_PHP + 'uat/bankList/napas/bankCard', routes.bankCard.get);
-app.post(link_VN_PHP + 'uat/bankList/napas/bankAccount', routes.bankAccount.get);
+app.post(link_VN_PHP + 'bankList/citad/bankList', routes.bankList.get);
+app.post(link_VN_PHP + 'bankList/citad/branchList', routes.branchList.get);
+app.post(link_VN_PHP + 'bankList/napas/bankCard', routes.bankCard.get);
+app.post(link_VN_PHP + 'bankList/napas/bankAccount', routes.bankAccount.get);
+app.post(link_VN_PHP + 'transferK2Other/verify/KtoNapas', routes.VerifyNapas.get);
 
 app.post(link_KH + 'customer/SearchCustomerByCode', routes.SearchCustomerByCode.get);
 app.post(link_KH + 'deposit/GetAccountByCustomer', routes.GetAccountByCustomer.get);

@@ -20,7 +20,7 @@ exports.get = function(req, res) {
             {
                 "BankCode": "001",
                 "BankNameVI": "NHNN",
-                "BankNameEN": "",
+                "BankNameEN": "NHNN English",
                 "BankStatus": "1",
                 "MinAccountPANLength": "1",
                 "MaxAccountPANLength": "20",
@@ -32,7 +32,7 @@ exports.get = function(req, res) {
             {
                 "BankCode": "002",
                 "BankNameVI": "NH TMCP Công thương",
-                "BankNameEN": "",
+                "BankNameEN": "NH TMCP Công thương English",
                 "BankStatus": "1",
                 "MinAccountPANLength": "1",
                 "MaxAccountPANLength": "20",
@@ -44,7 +44,7 @@ exports.get = function(req, res) {
             {
                 "BankCode": "003",
                 "BankNameVI": "NHTMCP Công thương",
-                "BankNameEN": "",
+                "BankNameEN": "NHTMCP Công thương English",
                 "BankStatus": "1",
                 "MinAccountPANLength": "1",
                 "MaxAccountPANLength": "20",
@@ -56,7 +56,7 @@ exports.get = function(req, res) {
             {
                 "BankCode": "004",
                 "BankNameVI": "NH TMCP Công thương Việt Nam",
-                "BankNameEN": "",
+                "BankNameEN": "EN1",
                 "BankStatus": "1",
                 "MinAccountPANLength": "1",
                 "MaxAccountPANLength": "20",
@@ -68,7 +68,7 @@ exports.get = function(req, res) {
             {
                 "BankCode": "005",
                 "BankNameVI": "C.ty Cho thuê Tài chính NH TMCPCT",
-                "BankNameEN": "",
+                "BankNameEN": "EN2",
                 "BankStatus": "1",
                 "MinAccountPANLength": "1",
                 "MaxAccountPANLength": "20",
@@ -80,7 +80,7 @@ exports.get = function(req, res) {
             {
                 "BankCode": "006",
                 "BankNameVI": "NH TMCP Đầu Tư và Phát triển",
-                "BankNameEN": "",
+                "BankNameEN": "EN3",
                 "BankStatus": "1",
                 "MinAccountPANLength": "1",
                 "MaxAccountPANLength": "20",

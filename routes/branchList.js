@@ -20,8 +20,20 @@ exports.get = function(req, res) {
             {
                 "BankCode": "031",
                 "BankBranchCode": "48204009",
-                "BranchNameEN": "",
+                "BranchNameEN": "CN Chợ Cồn Nam Đà Nẵng English",
                 "BranchNameVI": "CN Chợ Cồn Nam Đà Nẵng",
+                "BranchStatus": "1",
+                "BranchType": "B",
+                "CreatedBy": "SYSTEM",
+                "CreatedDate": "2021-10-05T15:15:56.2002936+07:00",
+                "LastModifyBy": "SYSTEM",
+                "LastModifyDate": "2021-10-05T15:15:56.2002936+07:00"
+            },
+            {
+                "BankCode": "031",
+                "BankBranchCode": "48204019",
+                "BranchNameEN": "CN Nam DInh English",
+                "BranchNameVI": "CN Nam DInh",
                 "BranchStatus": "1",
                 "BranchType": "B",
                 "CreatedBy": "SYSTEM",
