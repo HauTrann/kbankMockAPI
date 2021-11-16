@@ -5,7 +5,7 @@ exports.get = function(req, res) {
             {
                 "AccountNo": "000200020006732",
                 "TypeID": "C",
-                "AccountName": "Customer 1217",
+                "AccountName": "Customer 1102",
                 "StatusCD": "N",
                 "CCYCD": "USD",
                 "Balance": 36210.67,
@@ -19,7 +19,7 @@ exports.get = function(req, res) {
             {
                 "AccountNo": "000201050005252",
                 "TypeID": "S",
-                "AccountName": "Customer 1217",
+                "AccountName": "Customer 1102",
                 "StatusCD": "N",
                 "CCYCD": "THB",
                 "Balance": 442491.8,
@@ -33,7 +33,7 @@ exports.get = function(req, res) {
             {
                 "AccountNo": "000201020013544",
                 "TypeID": "S",
-                "AccountName": "Customer 1217",
+                "AccountName": "Customer 1102",
                 "StatusCD": "N",
                 "CCYCD": "USD",
                 "Balance": 2527085.45,
