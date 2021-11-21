@@ -30,6 +30,7 @@ app.post(link_VN_PHP + 'bankList/citad/branchList', routes.branchList.get);
 app.post(link_VN_PHP + 'bankList/napas/bankCard', routes.bankCard.get);
 app.post(link_VN_PHP + 'bankList/napas/bankAccount', routes.bankAccount.get);
 app.post(link_VN_PHP + 'transferK2Other/verify/KtoNapas', routes.VerifyNapas.get);
+app.post(link_VN_PHP + 'fee/getFeeAmount', routes.FeeAmount.get);
 app.post(link_VN_Sanc + 'status/json', routes.Sanction.get);
 
 app.post(link_KH + 'customer/SearchCustomerByCode', routes.SearchCustomerByCode.get);
