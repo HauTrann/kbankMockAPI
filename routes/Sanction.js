@@ -13,7 +13,7 @@ exports.get = function(req, res) {
             "userId": "K0999999",
             "userLangPref": "en_US"
         },
-        "sanctionFlag": "Y"
+        "sanctionFlag": "N"
     }
     );
     };

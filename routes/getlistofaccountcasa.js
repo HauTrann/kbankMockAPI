@@ -630,7 +630,7 @@ exports.get = function(req, res) {
           "ProductType": "1000",
           "AcctName": "1000 - Current Account",
           "StatusCD": "Active",
-          "CCYCD": "VND",
+          "CCYCD": "THB",
           "OutBal": "14954269.00",
           "AvalBal": "14954269.00",
           "LoanOutBal": null,

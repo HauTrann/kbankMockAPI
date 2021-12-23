@@ -20,7 +20,7 @@ exports.get = function(req, res) {
       },
       "CIFNo": "21",
       "CustType": "1",
-      "CustName": "CONG TY CO PHAN PHUC LOC THO",
+      "CustName": "#@#@#@!@!@@#@CONG TY CO PHAN PHUC LOC THO",
       "Title": null,
       "DOB": null,
       "PermAddr": [
@@ -74,7 +74,7 @@ data = {
   },
   "CIFNo": "21",
   "CustType": "0",
-  "CustName": "PERIPERA BETTY",
+  "CustName": "#@#@#@!@!PERIPERA BETTY",
   "Title": null,
   "DOB": "1985-01-30",
   "PermAddr": [

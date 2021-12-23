@@ -13,7 +13,7 @@ exports.get = function(req, res) {
             "rsAppId": "08005",
             "rsDt": "2021-10-26T10:34:24.585643+07:00",
             "rsUID": "a85f5d2e-008a-422e-ad69-34a4435e3f8b",
-            "statusCode": "00",
+            "statusCode": "10",
             "version": "0.01"
         },
         "Branch": [
