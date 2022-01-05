@@ -72,9 +72,9 @@ data = {
     "errorVect": null,
     "version": "v0.20"
   },
-  "CIFNo": "21",
+  "CIFNo": "9",
   "CustType": "0",
-  "CustName": "#@#@#@!@!PERIPERA BETTY",
+  "CustName": "PERIPERA BETTY",
   "Title": null,
   "DOB": "1985-01-30",
   "PermAddr": [

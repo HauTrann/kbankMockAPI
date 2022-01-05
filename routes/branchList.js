@@ -13,7 +13,7 @@ exports.get = function(req, res) {
             "rsAppId": "08005",
             "rsDt": "2021-10-26T10:34:24.585643+07:00",
             "rsUID": "a85f5d2e-008a-422e-ad69-34a4435e3f8b",
-            "statusCode": "10",
+            "statusCode": "00",
             "version": "0.01"
         },
         "Branch": [
@@ -32,6 +32,54 @@ exports.get = function(req, res) {
             {
                 "BankCode": "031",
                 "BankBranchCode": "48204019",
+                "BranchNameEN": "CN Nam DInh English",
+                "BranchNameVI": "CN Nam DInh",
+                "BranchStatus": "1",
+                "BranchType": "B",
+                "CreatedBy": "SYSTEM",
+                "CreatedDate": "2021-10-05T15:15:56.2002936+07:00",
+                "LastModifyBy": "SYSTEM",
+                "LastModifyDate": "2021-10-05T15:15:56.2002936+07:00"
+            },
+            {
+                "BankCode": "01202001",
+                "BankBranchCode": "01202001",
+                "BranchNameEN": "CN Nam DInh English",
+                "BranchNameVI": "CN Nam DInh",
+                "BranchStatus": "1",
+                "BranchType": "B",
+                "CreatedBy": "SYSTEM",
+                "CreatedDate": "2021-10-05T15:15:56.2002936+07:00",
+                "LastModifyBy": "SYSTEM",
+                "LastModifyDate": "2021-10-05T15:15:56.2002936+07:00"
+            },
+            {
+                "BankCode": "01605001",
+                "BankBranchCode": "01605001",
+                "BranchNameEN": "CN Nam DInh English",
+                "BranchNameVI": "CN Nam DInh",
+                "BranchStatus": "1",
+                "BranchType": "B",
+                "CreatedBy": "SYSTEM",
+                "CreatedDate": "2021-10-05T15:15:56.2002936+07:00",
+                "LastModifyBy": "SYSTEM",
+                "LastModifyDate": "2021-10-05T15:15:56.2002936+07:00"
+            },
+            {
+                "BankCode": "01202001",
+                "BankBranchCode": "01202004",
+                "BranchNameEN": "CN Nam DInh English",
+                "BranchNameVI": "CN Nam DInh",
+                "BranchStatus": "1",
+                "BranchType": "B",
+                "CreatedBy": "SYSTEM",
+                "CreatedDate": "2021-10-05T15:15:56.2002936+07:00",
+                "LastModifyBy": "SYSTEM",
+                "LastModifyDate": "2021-10-05T15:15:56.2002936+07:00"
+            },
+            {
+                "BankCode": "01605001",
+                "BankBranchCode": "79605001",
                 "BranchNameEN": "CN Nam DInh English",
                 "BranchNameVI": "CN Nam DInh",
                 "BranchStatus": "1",

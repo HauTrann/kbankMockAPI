@@ -1302,7 +1302,7 @@ exports.get = function(req, res) {
                 "LastModifyDate": "2021-10-05T15:13:27.6325413+07:00"
             },
             {
-                "BankCode": "108",
+                "BankCode": "01202001",
                 "BankNameVI": "NH Việt Nam Thịnh Vượng",
                 "BankNameEN": "",
                 "BankStatus": "1",
@@ -1314,7 +1314,7 @@ exports.get = function(req, res) {
                 "LastModifyDate": "2021-10-05T15:13:27.7372947+07:00"
             },
             {
-                "BankCode": "109",
+                "BankCode": "01605001",
                 "BankNameVI": "NHTMCP Việt Nam Thịnh Vượng",
                 "BankNameEN": "",
                 "BankStatus": "1",
@@ -1326,7 +1326,7 @@ exports.get = function(req, res) {
                 "LastModifyDate": "2021-10-05T15:13:27.8444979+07:00"
             },
             {
-                "BankCode": "110",
+                "BankCode": "01202004",
                 "BankNameVI": "NH TMCP Việt Nam Thịnh Vượng",
                 "BankNameEN": "",
                 "BankStatus": "1",
@@ -1338,7 +1338,7 @@ exports.get = function(req, res) {
                 "LastModifyDate": "2021-10-05T15:13:28.0050087+07:00"
             },
             {
-                "BankCode": "111",
+                "BankCode": "79605001",
                 "BankNameVI": "NHTMCP Việt Nam Thịnh Vương",
                 "BankNameEN": "",
                 "BankStatus": "1",

@@ -2,7 +2,7 @@ exports.get = function(req, res) {
     console.log(JSON.stringify(req.body));
       res.json({
         "Data": {
-            "CustomerCode": "0002001101",
+            "CustomerCode": "0002001138",
             "CustType": "C",
             "CustName": "Customer 1102",
             "DOB": "07/01/1994",
