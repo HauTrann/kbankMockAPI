@@ -16,8 +16,8 @@ exports.get = function(req, res) {
             "statusCode": "00",
             "version": "0.01"
         },
-        "FeeAmount": "3000.00",
+        "FeeAmount": "5000.00",
         "FeeCCYCD": null,
-        "PercentVat": "10.00"
+        "PercentVat": "8.00"
     });
     };

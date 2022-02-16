@@ -38,6 +38,7 @@ app.post(link_KH + 'deposit/GetAccountByCustomer', routes.GetAccountByCustomer.g
 app.post(link_KH + 'deposit/GetExchangeRate', routes.GetExchangeRateKH.get);
 app.post(link_KH + 'credit/GetLoanAccountByCustomer', routes.GetLoanAccountByCustomerKH.get);
 app.post(link_KH + 'deposit/SearchAccount', routes.SearchAccount.get);
+app.post(link_KH + 'deposit/GetAccountHistory', routes.SearchAccount.get);
 
 app.use(mockapi.middleware.notFoundHandler());
 app.use(mockapi.middleware.errorHandler(app.get('env')));

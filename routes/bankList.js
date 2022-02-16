@@ -1304,7 +1304,7 @@ exports.get = function(req, res) {
             {
                 "BankCode": "01202001",
                 "BankNameVI": "NH Việt Nam Thịnh Vượng",
-                "BankNameEN": "",
+                "BankNameEN": "NH TMCP Việt Nam Thịnh Vượng EN",
                 "BankStatus": "1",
                 "MinAccountPANLength": "1",
                 "MaxAccountPANLength": "20",
@@ -1316,7 +1316,7 @@ exports.get = function(req, res) {
             {
                 "BankCode": "01605001",
                 "BankNameVI": "NHTMCP Việt Nam Thịnh Vượng",
-                "BankNameEN": "",
+                "BankNameEN": "NH TMCP Việt Nam Thịnh Vượng EN",
                 "BankStatus": "1",
                 "MinAccountPANLength": "1",
                 "MaxAccountPANLength": "20",
@@ -1328,7 +1328,7 @@ exports.get = function(req, res) {
             {
                 "BankCode": "01202004",
                 "BankNameVI": "NH TMCP Việt Nam Thịnh Vượng",
-                "BankNameEN": "",
+                "BankNameEN": "NH TMCP Việt Nam Thịnh Vượng EN",
                 "BankStatus": "1",
                 "MinAccountPANLength": "1",
                 "MaxAccountPANLength": "20",
