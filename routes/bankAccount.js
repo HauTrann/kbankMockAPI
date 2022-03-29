@@ -228,7 +228,7 @@ exports.get = function(req, res) {
             "LastModifyDate": "2021-10-05T14:53:40.8615803+07:00"
         },
         {
-            "AcqId": " ",
+            "AcqId": "458761",
             "AccountBenId": "458761",
             "BankNameEN": "HSBC",
             "BankNameVI": "Ngân hàng TNHH MTV HSBC (Việt Nam)",
